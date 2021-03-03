@@ -1,35 +1,203 @@
 {"intents": [
-    {"tag": "1",
-    "patterns": ["Spider-Man", "Spider", "friendly neighborhood", "Peter", "parker", "spider-man"],
-    "responses": ["Name: Peter Parker, Tendency: Good, Eye: Hazel, Hair: Brown, First Appearance: Aug-62, Total: Appearances: 4043"]
+{"tag": "noanswer",
+    "patterns": [],
+    "responses": ["The observer has not seen this event yet."]
+},
+{"tag": "1",
+    "patterns": ["friendly neighborhood", "Peter", "parker"],
+    "responses": ["Name: Peter Parker(Spider-Man), Tendency: Good, Eye: Hazel, Hair: Brown, First Appearance: Aug-62, Total: Appearances: 4043"]
 },
 {"tag": "2",
-    "patterns": ["cap", "steve", "rogers", "captain", "capitain america"],
-    "responses": ["Name: Steven Rogers, Tendency: Good, Eye: Blue, Hair: White, First Appearance: Mar-41, Total: Appearances: 3360"]
+    "patterns": ["cap", "steve", "rogers"],
+    "responses": ["Name: Steven Rogers(Captain America), Tendency: Good, Eye: Blue, Hair: White, First Appearance: Mar-41, Total: Appearances: 3360"]
 },
 {"tag": "3",
-    "patterns": ["James", "logan", "wolverine", "shorty"],
-    "responses": ["Name: James Logan, Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Oct-74, Total: Appearances: 3061"]
+    "patterns": ["James logan", "wolverine", "shorty"],
+    "responses": ["Name: James Logan(Wolverine), Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Oct-74, Total: Appearances: 3061"]
 },
 {"tag": "4",
-    "patterns": ["Anthony", "Tony", "stark", "iron man", "iron-man"],
-    "responses": ["Name: Tony Stark , Tendency: Good, Eye: Blue, Hair: Black, First Appearance: Mar-63, Total: Appearances: 2961"]
+    "patterns": ["Anthony", "Tony", "stark"],
+    "responses": ["Name: Tony Stark(Iron-Man) , Tendency: Good, Eye: Blue, Hair: Black, First Appearance: Mar-63, Total: Appearances: 2961"]
 },
 {"tag": "5",
-    "patterns": ["wanda vision", "wanda", "vision"],
+    "patterns": ["wanda vision", "wanda tv show", "wanda disney"],
     "responses": ["Streaming on: Disney+ , Ratings: 7.7, Episodes: 9, Plot: Set three weeks after the events of Avengers: Endgame (2019), Wanda Maximoff and Vision are living an idyllic suburban life in the town of Westview, New Jersey, trying to conceal their true natures. As they begin to enter new decades and encounter television tropes, the couple suspects that things are not as they seem."]
 },
 {"tag": "6",
-    "patterns": ["dare devil", "hells kitchen", "hellskitchen", "matt murdock", "daredevil" ],
+    "patterns": ["dare devil tv show", "hells kitchen", "hellskitchen", "daredevil tv show" ],
     "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 39, Plot: The first season sees lawyer-by-day Matt Murdock use his heightened senses from being blinded as a young boy to fight crime at night on the streets of New York City's Hell's Kitchen neighborhood as Daredevil, while uncovering a conspiracy of the criminal underworld being led by Wilson Fisk."]
 },
 {"tag": "7",
-    "patterns": ["punisher", "frank", "castle"],
+    "patterns": ["punisher tv show"],
     "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 26, Plot: After exacting revenge on those responsible for the death of his family, the first season finds former Force Recon Marine Frank Castle, known throughout New York City as the Punisher, uncovering a larger conspiracy beyond what was done to him and his family."]
 },
 {"tag": "8",
-    "patterns": ["agents", "of shield", "marvel"],
+    "patterns": ["agents", "of shield"],
     "responses": ["Streaming on: ABC, Ratings: 9, Episodes: 126, Plot: The first season follows S.H.I.E.L.D. agent Phil Coulson as he puts together a small team of agents to handle strange new cases. They investigate Project Centipede and its leader, The Clairvoyant, eventually uncovering that the organization is backed by the terrorist group Hydra, which has infiltrated S.H.I.E.L.D."]
+},
+{"tag": "9",
+    "patterns": ["Avengers", "avengers 1"],
+    "responses": ["Movie: The Avengers, Plot: The Asgardian Loki encounters the Other, the leader of an extraterrestrial race known as the Chitauri. In exchange for retrieving the Tesseract, a powerful energy source of unknown potential, the Other promises Loki an army with which he can subjugate Earth."]
+},
+{"tag": "10",
+    "patterns": ["Avengers age of ultron", "ultron", "avengers 2"],
+    "responses": ["Movie: The Avengers - Age of Ultron, Plot: After successive battles, the avengers end up in the Eastern European country of Sokovia, where they find the scepter previously wielded by Loki. Stark and Banner discover an artificial intelligence within the scepter's gem, and secretly decide to use it to complete Stark's Ultron"]
+},
+{"tag": "11",
+    "patterns": ["Avengers end game", "avengers 4", "endgame"],
+    "responses": ["Movie: The Avengers - Endgame, Plot: Twenty-three days after Thanos used the Infinity Gauntlet to kill half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers: Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes and Rocket on Earth. Locating Thanos on an uninhabited planet, they plan to use the Infinity Stones to reverse the Snap."]
+},
+{"tag": "12",
+    "patterns": ["Iron Man movie", "Iron man 1", "iron man one"],
+    "responses": ["Movie: Iron Man Plot: TA billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon"]
+},
+{"tag": "13",
+    "patterns": ["Iron man 2", "iron man two"],
+    "responses": ["Movie: Iron man 2  Plot: With the world now aware that he is Iron Man, billionaire inventor Tony Stark (Robert Downey Jr.) faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. "]
+},
+{"tag": "14",
+    "patterns": ["Iron man 3", "iron man three"],
+    "responses": ["Movie: Iron man 3  Plot: Plagued with worry and insomnia since saving New York from destruction, Tony Stark (Robert Downey Jr.), now, is more dependent on the suits that give him his Iron Man persona -- so much so that every aspect of his life is affected, including his relationship with Pepper (Gwyneth Paltrow).  "]
+},
+{"tag": "15",
+    "patterns": ["captain america movie", "the first avenger"],
+    "responses": ["Movie: Captain America - The First Avenger  Plot: It is 1941 and the world is in the throes of war. Steve Rogers (Chris Evans) wants to do his part and join America's armed forces, but the military rejects him because of his small stature. Finally, Steve gets his chance when he is accepted into an experimental program that turns him into a supersoldier called Captain America."]
+},
+{"tag": "16",
+    "patterns": ["the winter soldier", "captain america 2"],
+    "responses": ["Movie: Captain America - The winter Soldier  Plot: After the cataclysmic events in New York with his fellow Avengers, Steve Rogers, aka Captain America (Chris Evans), lives in the nation's capital as he tries to adjust to modern times. An attack on a S.H.I.E.L.D. colleague throws Rogers into a web of intrigue that places the whole world at risk."]
+},
+{"tag": "17",
+    "patterns": ["capitain america 3", "civil war"],
+    "responses": ["Movie: Captain America - Civil War  Plot: Political pressure mounts to install a system of accountability when the actions of the Avengers lead to collateral damage. The new status quo deeply divides members of the team. Captain America (Chris Evans) believes superheroes should remain free to defend humanity without government interference. Iron Man (Robert Downey Jr.) sharply disagrees and supports oversight."]
+},
+{"tag": "18",
+    "patterns": ["thor movie", "thor one", "thor 1 "],
+    "responses": ["Movie: Thor  Plot: As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty."]
+},
+{"tag": "19",
+    "patterns": ["thor 2", "thor two", "the dark world"],
+    "responses": ["Movie: Thor - The Dark World  Plot: In ancient times, the gods of Asgard fought and won a war against an evil race known as the Dark Elves. The survivors were neutralized, and their ultimate weapon -- the Aether -- was buried in a secret location. Hundreds of years later, Jane Foster (Natalie Portman) finds the Aether and becomes its host, forcing Thor (Chris Hemsworth) to bring her to Asgard before Dark Elf Malekith (Christopher Eccleston) captures her and uses the weapon to destroy the Nine Realms -- including Earth."]
+},
+{"tag": "20",
+    "patterns": ["thor 3", "ragnarok"],
+    "responses": ["Movie: Thor - Ragnarok  Plot: Imprisoned on the other side of the universe, the mighty Thor finds himself in a deadly gladiatorial contest that pits him against the Hulk, his former ally and fellow Avenger. Thor's quest for survival leads him in a race against time to prevent the all-powerful Hela from destroying his home world and the Asgardian civilization."]
+},
+{"tag": "21",
+    "patterns": ["odinson"],
+    "responses": ["Name: Thor , Tendency: Good, Eye: Blue, Hair: Blond, First Appearance: Nov-50, Total: Appearances: 2258"]
+},
+{"tag": "22",
+    "patterns": ["hulk movie"],
+    "responses": ["Movie: Hulk  Plot: Scientist Bruce Banner (Edward Norton) desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk. Cut off from his true love Betty Ross (Liv Tyler) and forced to hide from his nemesis, Gen. Thunderbolt Ross (William Hurt), Banner soon comes face-to-face with a new threat: a supremely powerful enemy known as The Abomination (Tim Roth)."]
+},
+{"tag": "23",
+    "patterns": ["Bruce Banner"],
+    "responses": ["Name: Bruce Banner(Hulk) , Tendency: Good, Eye: Brown, Hair: Brown, First Appearance: May-62, Total: Appearances: 2017"]
+},
+{"tag": "24",
+    "patterns": ["Black Widow", "Natasha Romanoff"],
+    "responses": ["Name:Natasha Romanoff , Tendency: Neutral, Eye: Green, Hair: Red, First Appearance: April-64, Total: Appearances: 2005"]
+},
+{"tag": "25",
+    "patterns": ["Clinton Barton", "Hawkeye"],
+    "responses": ["Name: Clinton Barton , Tendency: Good, Eye: Blue, Hair: Blond, First Appearance: Sep-64, Total: Appearances: 1394"]
+},
+{"tag": "26",
+    "patterns": ["james buchanan barnes", "bucky", "winter soldier"],
+    "responses": ["Name: James Buchanan Barnes(Bucky), Tendency: Neutral, Eye: Brown, Hair: Brown, First Appearance: Mar-41, Total: Appearances: 641"]
+},
+{"tag": "27",
+    "patterns": ["wanda maximoff", "scarlet witch"],
+    "responses": ["Name: Wanda Maximoff (Scarlet Witch), Tendency: Neutral, Eye: Green, Hair: Brown, First Appearance: Mar-64, Total: Appearances: 1161"]
+},
+{"tag": "28",
+    "patterns": ["vision"],
+    "responses": ["Name: Vision , Tendency: Good, Eye: Gold, Hair: No, First Appearance: Oct-68, Total: Appearances: 1007"]
+},
+{"tag": "29",
+    "patterns": ["director", "fury", "nick"],
+    "responses": ["Name: Nicholas J. Fury , Tendency: Neutral, Eye: Brown, Hair: Brown, First Appearance: May-63, Total: Appearances: 1137"]
+},
+{"tag": "30",
+    "patterns": ["devil of hells kitchen", "devil", "matt murdock", "dare devil", "daredevil", "matthew murdock"],
+    "responses": ["Name: Matthew Murdock(Daredevil) , Tendency: Good, Eye: Blue, Hair: Red, First Appearance: Apr-64, Total: Appearances: 1338"]
+},
+{"tag": "31",
+    "patterns": ["punisher", "the punisher", "frank castle", "dare devil", "daredevil", "matthew murdock"],
+    "responses": ["Name: Frank Castle(The Punisher) , Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Feb-74, Total: Appearances: 878"]
+},
+{"tag": "32",
+    "patterns": ["thanos"],
+    "responses": ["Name: Dione(Thanos)(Mad Titan) , Tendency: Bad, Eye: Purple, Hair: None, First Appearance: Feb-73, Total: Appearances: 1073"]
+},
+{"tag": "33",
+    "patterns": ["guardians of the galaxy vol 1", "guardians of the galaxy one"],
+    "responses": ["Movie: Guardians of the Galaxy - Vol 1  Plot: Brash space adventurer Peter Quill (Chris Pratt) finds himself the quarry of relentless bounty hunters after he steals an orb coveted by Ronan, a powerful villain. To evade Ronan, Quill is forced into an uneasy truce with four disparate misfits: gun-toting Rocket Raccoon, treelike-humanoid Groot, enigmatic Gamora, and vengeance-driven Drax the Destroyer."]
+},
+{"tag": "34",
+    "patterns": ["guardians of the galaxy vol 2", "guardians of the galaxy two"],
+    "responses": ["Movie: Guardians of the Galaxy - Vol 2  Plot: Peter Quill and his fellow Guardians are hired by a powerful alien race, the Sovereign, to protect their precious batteries from invaders. When it is discovered that Rocket has stolen the items they were sent to guard, the Sovereign dispatch their armada to search for vengeance. As the Guardians try to escape, the mystery of Peter's parentage is revealed."]
+},
+{"tag": "35",
+    "patterns": ["peter quill", "star lord"],
+    "responses": ["Name: Frank Castle(The Punisher) , Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Feb-76, Total: Appearances: 920"]
+},
+{"tag": "36",
+    "patterns": ["gamora"],
+    "responses": ["Name: Gamora(Daugther of Thanos) , Tendency: Neutral, Eye: Green, Hair: Black/Red, First Appearance: Feb-76, Total: Appearances: 900"]
+},
+{"tag": "37",
+    "patterns": ["rocket", "racoon"],
+    "responses": ["Name: Rocket Racoon , Tendency: Neutral, Eye: Clack, Hair: Fur(brown, First Appearance: Feb-76, Total: Appearances: 910"]
+},
+{"tag": "38",
+    "patterns": ["drax", "the destroyer"],
+    "responses": ["Name: Drax(The Destroyer) , Tendency: Neutral, Eye: Black, Hair: None, First Appearance: Feb-76, Total: Appearances: 900"]
+},
+{"tag": "39",
+    "patterns": ["scott", "lang", "Hank Pym"],
+    "responses": ["Name: Henry Pym(Ant-Man)-Scott Lang , Tendency: Good, Eye: Blue, Hair: Blond, First Appearance: Jan-62, Total: Appearances: 1237"]
+},
+{"tag": "40",
+    "patterns": ["wasp"],
+    "responses": ["Name: Janet Van Dyne(The Wasp)-Hope Van Dyne , Tendency: Good, Eye: Blue, Hair: Auburn, First Appearance: Jun-63, Total: Appearances: 1120"]
+},
+{"tag": "41",
+    "patterns": ["ant man movie", "ant man one", "ant man 1"],
+    "responses": ["Movie: Ant Man  Plot: In 1989, scientist Hank Pym resigns from S.H.I.E.L.D. after discovering their attempt to replicate his Ant-Man shrinking technology. Believing the technology would be dangerous if replicated, Pym vows to hide it for as long as he lives, but is now looking for someone to carry the torch."]
+},
+{"tag": "42",
+    "patterns": ["ant man and the wasp", "ant man two","ant man 2" ],
+    "responses": ["Movie: Ant Man and The Wasp  Plot: Scott Lang is grappling with the consequences of his choices as both a superhero and a father. Approached by Hope van Dyne and Dr. Hank Pym, Lang must once again don the Ant-Man suit and fight alongside the Wasp. The urgent mission soon leads to secret revelations from the past as the dynamic duo finds itself in an epic battle against a powerful new enemy."]
+},
+{"tag": "43",
+    "patterns": ["doctor strange movie"],
+    "responses": ["Movie: Doctor Stange  Plot: Dr. Stephen Strange's (Benedict Cumberbatch) life changes after a car accident robs him of the use of his hands. When traditional medicine fails him, he looks for healing, and hope, in a mysterious enclave. He quickly learns that the enclave is at the front line of a battle against unseen dark forces bent on destroying reality."]
+},
+{"tag": "44",
+    "patterns": ["black panther movie" ],
+    "responses": ["Movie: Black Panther  Plot: After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place as king. When a powerful enemy suddenly reappears, T'Challa's mettle as king -- and as Black Panther -- gets tested when he's drawn into a conflict that puts the fate of Wakanda and the entire world at risk. "]
+},
+{"tag": "45",
+    "patterns": ["spider man movie", "spider-man movie" ],
+    "responses": ["Movie: Spider-Man: Homecoming  Plot: Thrilled by his experience with the Avengers, young Peter Parker returns home to live with his Aunt May. Under the watchful eye of mentor Tony Stark, Parker starts to embrace his newfound identity as Spider-Man. He also tries to return to his normal daily routine -- distracted by thoughts of proving himself to be more than just a friendly neighborhood superhero."]
+},
+{"tag": "46",
+    "patterns": ["capitain marvel movie" ],
+    "responses": ["Movie: Captain Marvel  Plot: Captain Marvel is an extraterrestrial Kree warrior who finds herself caught in the middle of an intergalactic battle between her people and the Skrulls. Living on Earth in 1995, she keeps having recurring memories of another life as U.S. Air Force pilot Carol Danvers. "]
+},
+{"tag": "47",
+    "patterns": ["doctor strange", "stephen strange"],
+    "responses": ["Name: Stephen Strange(Doctor Strange) , Tendency: Good, Eye: Grey, Hair: Black, First Appearance: Jul-63, Total: Appearances: 1307"]
+},
+{"tag": "48",
+    "patterns": ["black panther", "tchala", "t'chala"],
+    "responses": ["Name: King T'Chala(Black Panther) , Tendency: Good, Eye: Black, Hair: Black, First Appearance: Jun-66, Total: Appearances: 1120"]
+},
+{"tag": "49",
+    "patterns": ["Carol Denvers", "Captain Marvel"],
+    "responses": ["Name: Carol Danvers(Capitain Marvel), Tendency: Good, Eye: Blue, Hair: Blond, First Appearance: Mar-68, Total: Appearances: 881"]
 },
 {"tag": "greetings",
     "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up", "how is it going?"],
