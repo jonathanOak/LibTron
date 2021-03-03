@@ -1,0 +1,5 @@
+Flask==1.1.1
+nltk==3.4.5
+gunicorn==19.9.0
+tensorflow==2.3
+numpy==1.19.5

@@ -1,0 +1,45 @@
+{"intents": [
+    {"tag": "1",
+    "patterns": ["Spider-Man", "Spider", "friendly neighborhood", "Peter", "parker", "spider-man"],
+    "responses": ["Name: Peter Parker, Tendency: Good, Eye: Hazel, Hair: Brown, First Appearance: Aug-62, Total: Appearances: 4043"]
+},
+{"tag": "2",
+    "patterns": ["cap", "steve", "rogers", "captain", "capitain america"],
+    "responses": ["Name: Steven Rogers, Tendency: Good, Eye: Blue, Hair: White, First Appearance: Mar-41, Total: Appearances: 3360"]
+},
+{"tag": "3",
+    "patterns": ["James", "logan", "wolverine", "shorty"],
+    "responses": ["Name: James Logan, Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Oct-74, Total: Appearances: 3061"]
+},
+{"tag": "4",
+    "patterns": ["Anthony", "Tony", "stark", "iron man", "iron-man"],
+    "responses": ["Name: Tony Stark , Tendency: Good, Eye: Blue, Hair: Black, First Appearance: Mar-63, Total: Appearances: 2961"]
+},
+{"tag": "5",
+    "patterns": ["wanda vision", "wanda", "vision"],
+    "responses": ["Streaming on: Disney+ , Ratings: 7.7, Episodes: 9, Plot: Set three weeks after the events of Avengers: Endgame (2019), Wanda Maximoff and Vision are living an idyllic suburban life in the town of Westview, New Jersey, trying to conceal their true natures. As they begin to enter new decades and encounter television tropes, the couple suspects that things are not as they seem."]
+},
+{"tag": "6",
+    "patterns": ["dare devil", "hells kitchen", "hellskitchen", "matt murdock", "daredevil" ],
+    "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 39, Plot: The first season sees lawyer-by-day Matt Murdock use his heightened senses from being blinded as a young boy to fight crime at night on the streets of New York City's Hell's Kitchen neighborhood as Daredevil, while uncovering a conspiracy of the criminal underworld being led by Wilson Fisk."]
+},
+{"tag": "7",
+    "patterns": ["punisher", "frank", "castle"],
+    "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 26, Plot: After exacting revenge on those responsible for the death of his family, the first season finds former Force Recon Marine Frank Castle, known throughout New York City as the Punisher, uncovering a larger conspiracy beyond what was done to him and his family."]
+},
+{"tag": "8",
+    "patterns": ["agents", "of shield", "marvel"],
+    "responses": ["Streaming on: ABC, Ratings: 9, Episodes: 126, Plot: The first season follows S.H.I.E.L.D. agent Phil Coulson as he puts together a small team of agents to handle strange new cases. They investigate Project Centipede and its leader, The Clairvoyant, eventually uncovering that the organization is backed by the terrorist group Hydra, which has infiltrated S.H.I.E.L.D."]
+},
+{"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up", "how is it going?"],
+    "responses": ["Hello!", "Hey!", "what can I do for you?"]
+},
+{"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goddbye", "I am leaving", "Have a Good day", "bye", "see ya"],
+    "responses": ["Sad to see you go", "talk to you later", "bye bye"]
+}
+]}
+
+
+
