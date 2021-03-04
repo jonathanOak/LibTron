@@ -96,9 +96,19 @@
       $.get("/get", { msg: rawText }).done(function (data) {
         console.log(rawText);
         console.log(data);
-        const msgText = data;
-        appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
-
+        const msgText = data.split("\n");
+        const n = msgText.length;
+        if (n == 1) {
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[0]);
+        } else {
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[0]);
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[1]);
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[2]);
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[3]);
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[4]);
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[5]);
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText[6]);
+        }
       });
 
     }

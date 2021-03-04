@@ -1,23 +1,23 @@
 {"intents": [
 {"tag": "noanswer",
     "patterns": [],
-    "responses": ["The observer has not seen this event yet."]
+    "responses": ["The observer has not gathered data about on this yet."]
 },
 {"tag": "1",
-    "patterns": ["friendly neighborhood", "Peter", "parker"],
-    "responses": ["Name: Peter Parker(Spider-Man), Tendency: Good, Eye: Hazel, Hair: Brown, First Appearance: Aug-62, Total: Appearances: 4043"]
+    "patterns": ["friendly neighborhood", "peter", "parker", "spider man", "spider-man"],
+    "responses": ["Name: Peter Parker\nSuperpowers: Strength, jumping, leaping, speed, danger sense precognition, custom web-shooters.\nThe most relatable and popular of Marvels roster by far. Mild-mannered Peter Parker is a tinkerer, a nerd but ultimately an ordinary guy when you take away his spider-based powers. He is the most remarkable, but also the most ordinary. His flexibility and relatability have seen him kick thugs in Queens and join the Avengers to space and beyond in equal measure. With heightened spider powers, this popular Marvel character can web-crawl, leap across buildings, fight like a pro, and sense danger stronger than the little creature itself.\nYear Created: 1963\nHow he got his Powers:  Bitten by a radioactive spider.\nWeapons: Web-shooters\nDid You Know? Peter's parents were S.H.I.E.L.D Agents!"]
 },
 {"tag": "2",
     "patterns": ["cap", "steve", "rogers"],
-    "responses": ["Name: Steven Rogers(Captain America), Tendency: Good, Eye: Blue, Hair: White, First Appearance: Mar-41, Total: Appearances: 3360"]
+    "responses": ["Name: Steven Rogers (Captain America)\nSuperpowers: Strength, agility, stamina, healing ability, expert tactician, martial artist, indestructible shield.\nThe First Avenger by age, Captain America actually joined the team in their early years after he broke out of a block of ice from the Arctic. Before becoming Captain America, Steve Rogers was weak and sickly, given treatment that granted him superhuman condition. His extraordinary bones and muscles make him capable of breaking wood and steel with a single hit, while his shield makes him resistant to destruction. With incredible lung capacity, Cap has high endurance and is a skilled martial artist. \nYear Created: 1941 \nHow he got his Powers: Injected with Super-Soldier Serum.\nWeapons: Vibranium shield\nDid You Know? The fighting style Captain America uses is called Jeet Kune Do, inspired by Bruce Lee!"]
 },
 {"tag": "3",
-    "patterns": ["James logan", "wolverine", "shorty"],
-    "responses": ["Name: James Logan(Wolverine), Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Oct-74, Total: Appearances: 3061"]
-},
+    "patterns": ["james logan", "wolverine", "shorty"],
+    "responses": ["Name: James Logan\nSuperpowers: Reflexes, agility, senses, retractable adamantium-plated bone claws, regeneration, indestructible skeleton.\nWhat discussion of Marvel's roster would be complete without one of its most iconic of heroes? A hunter by instinct and skilled martial artist and swordsman, he perhaps knows more than any other mutant (thanks to his long life) how distrustful people can be. Wolverine's strength is enough to break steel and lift weights that no normal human could. With animal-senses that can hear and see more than that of an ordinary person, a healing power like no other, and claws for days, Wolverine is one that goes down in history.\nYear Created: 1974\nHow he got his Powers: Mutant-born\nWeapons: Adamantium claws, daggers, katana, guns\nDid You Know? A Batman-Wolverine hybrid exists known as The Dark Claw!"]
+}, 
 {"tag": "4",
-    "patterns": ["Anthony", "Tony", "stark"],
-    "responses": ["Name: Tony Stark(Iron-Man) , Tendency: Good, Eye: Blue, Hair: Black, First Appearance: Mar-63, Total: Appearances: 2961"]
+    "patterns": ["anthony", "tony", "stark"],
+    "responses": ["Name: Anthony Stark\nSuperpowers: Genius-level intellect, multiple powered armor suits, ability to fly.\nWhen he is not flying alongside them in his custom power armor, Anthony Edward Tony Stark is the Avengers' billionaire backer and one of America's greatest philanthropists. This came about after he realized just what his weapons company was propagating. His former playboy life left its scars however, most famously his close relationship with alcohol. Nevertheless, when he's wearing his infamous suit, Stark becomes Iron Man, gaining superhuman strength, flying skills and an arsenal of powerful weapons. He can withstand bullet impact and has the ability to biologically heal himself and repair the armor.\nYear Created: 1963\nHow he got his Powers: From his suit\nWeapons: Repulsor rays, uni-beam projector, lasers\nDid You Know? Tony Stark created and built one of Spider-Man's upgraded suits known as the Iron Spider Suit. We got a small glimpse of it in Spider-Man: Homecoming!"]
 },
 {"tag": "5",
     "patterns": ["wanda vision", "wanda tv show", "wanda disney"],
@@ -25,7 +25,7 @@
 },
 {"tag": "6",
     "patterns": ["dare devil tv show", "hells kitchen", "hellskitchen", "daredevil tv show" ],
-    "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 39, Plot: The first season sees lawyer-by-day Matt Murdock use his heightened senses from being blinded as a young boy to fight crime at night on the streets of New York City's Hell's Kitchen neighborhood as Daredevil, while uncovering a conspiracy of the criminal underworld being led by Wilson Fisk."]
+    "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 39, Plot: The first season sees lawyer-by-day Matt Murdock use his heightened senses from being blinded as a young boy to fight crime at night on the streets of New York Citys Hell's Kitchen neighborhood as Daredevil, while uncovering a conspiracy of the criminal underworld being led by Wilson Fisk."]
 },
 {"tag": "7",
     "patterns": ["punisher tv show"],
@@ -36,27 +36,27 @@
     "responses": ["Streaming on: ABC, Ratings: 9, Episodes: 126, Plot: The first season follows S.H.I.E.L.D. agent Phil Coulson as he puts together a small team of agents to handle strange new cases. They investigate Project Centipede and its leader, The Clairvoyant, eventually uncovering that the organization is backed by the terrorist group Hydra, which has infiltrated S.H.I.E.L.D."]
 },
 {"tag": "9",
-    "patterns": ["Avengers", "avengers 1"],
+    "patterns": ["avengers", "avengers 1"],
     "responses": ["Movie: The Avengers, Plot: The Asgardian Loki encounters the Other, the leader of an extraterrestrial race known as the Chitauri. In exchange for retrieving the Tesseract, a powerful energy source of unknown potential, the Other promises Loki an army with which he can subjugate Earth."]
 },
 {"tag": "10",
-    "patterns": ["Avengers age of ultron", "ultron", "avengers 2"],
+    "patterns": ["avengers age of ultron", "ultron", "avengers 2"],
     "responses": ["Movie: The Avengers - Age of Ultron, Plot: After successive battles, the avengers end up in the Eastern European country of Sokovia, where they find the scepter previously wielded by Loki. Stark and Banner discover an artificial intelligence within the scepter's gem, and secretly decide to use it to complete Stark's Ultron"]
 },
 {"tag": "11",
-    "patterns": ["Avengers end game", "avengers 4", "endgame"],
+    "patterns": ["avengers end game", "avengers 4", "endgame"],
     "responses": ["Movie: The Avengers - Endgame, Plot: Twenty-three days after Thanos used the Infinity Gauntlet to kill half of all life in the universe, Carol Danvers rescues Tony Stark and Nebula from deep space and they reunite with the remaining Avengers: Bruce Banner, Steve Rogers, Thor, Natasha Romanoff, and James Rhodes and Rocket on Earth. Locating Thanos on an uninhabited planet, they plan to use the Infinity Stones to reverse the Snap."]
 },
 {"tag": "12",
-    "patterns": ["Iron Man movie", "Iron man 1", "iron man one"],
+    "patterns": ["iron man movie", "iron man 1", "iron man one"],
     "responses": ["Movie: Iron Man Plot: TA billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas, but terrorists kidnap him to force him to build a devastating weapon"]
 },
 {"tag": "13",
-    "patterns": ["Iron man 2", "iron man two"],
+    "patterns": ["iron man 2", "iron man two"],
     "responses": ["Movie: Iron man 2  Plot: With the world now aware that he is Iron Man, billionaire inventor Tony Stark (Robert Downey Jr.) faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. "]
 },
 {"tag": "14",
-    "patterns": ["Iron man 3", "iron man three"],
+    "patterns": ["iron man 3", "iron man three"],
     "responses": ["Movie: Iron man 3  Plot: Plagued with worry and insomnia since saving New York from destruction, Tony Stark (Robert Downey Jr.), now, is more dependent on the suits that give him his Iron Man persona -- so much so that every aspect of his life is affected, including his relationship with Pepper (Gwyneth Paltrow).  "]
 },
 {"tag": "15",
@@ -92,44 +92,44 @@
     "responses": ["Movie: Hulk  Plot: Scientist Bruce Banner (Edward Norton) desperately seeks a cure for the gamma radiation that contaminated his cells and turned him into The Hulk. Cut off from his true love Betty Ross (Liv Tyler) and forced to hide from his nemesis, Gen. Thunderbolt Ross (William Hurt), Banner soon comes face-to-face with a new threat: a supremely powerful enemy known as The Abomination (Tim Roth)."]
 },
 {"tag": "23",
-    "patterns": ["Bruce Banner"],
-    "responses": ["Name: Bruce Banner(Hulk) , Tendency: Good, Eye: Brown, Hair: Brown, First Appearance: May-62, Total: Appearances: 2017"]
+    "patterns": ["bruce banner", "hulk"],
+    "responses": ["Name: Bruce Banner\nSuperpowers: Strength, speed, stamina, durability, regeneration, nigh invulnerability, breathing underwater.\nThe strongest one there is! Bruce Banner must constantly hide the beast that dwells within him, as anger, frustration and rage coax the untameable wrecking ball out. The angrier he gets, the more strength he builds. With superhuman muscle power and lungs, Hulk has the ability to lift mountains and planets, travel miles in just one jump, breathe underwater and withstand bullets. Hulk's history with everyone around him makes him unique in that if you can name a hero, this top Marvel character has likely fought them at least once.\nYear Created: 1962\nHow he got his Powers: Exposed to gamma radiation.\nWeapons: His strength\nDid You Know? After its first 6 issues, The Incredible Hulk was cancelled due to a weak following."]
 },
 {"tag": "24",
-    "patterns": ["Black Widow", "Natasha Romanoff"],
-    "responses": ["Name:Natasha Romanoff , Tendency: Neutral, Eye: Green, Hair: Red, First Appearance: April-64, Total: Appearances: 2005"]
+    "patterns": ["black widow", "natasha romanoff"],
+    "responses": ["Name:Natasha Romanoff\nSuperpowers: Master spy & assassin, martial artist, armed combatant; skills in espionage, infiltration, disguise and deception, manipulation & hacking.\nDubbed one of the most dangerous operatives, Black Widow is Marvel's talented spy and lethal assassin. A core member of the Avengers, Natasha Romanoff has enhanced abilities in espionage and is skilled in stealth, disguise and infiltration. Able to detect liars (and perfectly lie herself), Black Widow is also one of the best martial artists in the world and is a champion in kung fu, Taekwondo, sambo, and much more. She can combat with spears, staffs, and handguns and is also a skilled acrobat. This master assassin has been trained to kill without remorse, and is even gifted in hacking and multilingualism. \nYear Created: 1964\nHow she got her Powers: Trained as a KGB operative and dangerous assassin\nWeapons: Black Widow's bite, Black Widow's batons, taser disks, handguns & more\nDid You Know? In Marvel's What If comics, Black Widow was able to pick up Thor's hammer and transform into the Goddess of Thunder."]
 },
 {"tag": "25",
-    "patterns": ["Clinton Barton", "Hawkeye"],
-    "responses": ["Name: Clinton Barton , Tendency: Good, Eye: Blue, Hair: Blond, First Appearance: Sep-64, Total: Appearances: 1394"]
+    "patterns": ["clinton barton", "hawkeye"],
+    "responses": ["Name: Clinton Barton\nSuperpowers: Marksmanship, assassin, marital artist, knife & sword master and expert pilot.\nClint Barton has been an Avenger and agent for S.H.I.E.L.D for a reason – his remarkable and out of this world talent in marksmanship. Not a ‘superhero' per se, but more of a normal guy with the superhuman ability to fire arrows and bows with extreme precision and accuracy; Hawkeye has helped defeat multiple enemies with his fine skills. He has spectacular eyesight and hand-eye coordination, can fire multiple arrows in a few seconds, and directly hit small targets in far distances. Hawkeye is also a master assassin and excellent martial artist.\nYear Created: 1964\nHow he got his Powers: Trained his skills in marksmanship\nWeapons: Bows and arrows\nDid You Know? Stan Lee and Don Heck introduced Hawkeye as a villain in the September 1964 comic issue of Tales of Suspense."]
 },
 {"tag": "26",
     "patterns": ["james buchanan barnes", "bucky", "winter soldier"],
-    "responses": ["Name: James Buchanan Barnes(Bucky), Tendency: Neutral, Eye: Brown, Hair: Brown, First Appearance: Mar-41, Total: Appearances: 641"]
+    "responses": ["Name: James Buchanan Barnes(Bucky)\nSuperpowers: Energy blasts, superhuman strength, martial artist, speed, healing, stamina.\nWorld War II veteran and best friend to Steve Rogers, Bucky Barnes was long presumed dead before becoming the Winter Soldier. After falling from a plane and being found by the Soviet Union, and HYDRA, Barnes was experimented on and granted superhuman abilities and a new cybernetic limb. Advanced to be their operative, Bucky lived a violent and villain life. It wasn't until he reunited with Rogers when he began to remember his past and turn to the good side again. Bucky's bionic arm gives him superhuman strength, extended reach, and the ability to discharge bolts of electrical energy. He's also a skilled martial artist, shield fighter, acrobat and expert spy and assassin.\nYear Created: 1941\nHow got his Powers: Injected with the infinity formula\nWeapons: Snipers, rifles\nDid You Know? Apparently, Stan Lee disliked ‘side-kicks'. This could explain why Bucky had a quick death in the original comics."]
 },
 {"tag": "27",
     "patterns": ["wanda maximoff", "scarlet witch"],
-    "responses": ["Name: Wanda Maximoff (Scarlet Witch), Tendency: Neutral, Eye: Green, Hair: Brown, First Appearance: Mar-64, Total: Appearances: 1161"]
+    "responses": ["Name: Wanda Maximoff\nSuperpowers: Telekinesis, telepathy, teleportation, flight, reality, time, fire, weather and energy manipulation.\nFrom siding with Ultron to joining the Avengers, Scarlet Witch AKA Wanda Maximoff has had her fair share of ups and downs in the Marvel Universe. She's lost her brother and family but found romance with fellow superhero Vision, all the while helping to defeat Thanos by using her extraordinary set of powers. Telekinesis, telepathy, and energy manipulation are just a few powers up Scarlet's sleeves.\nYear Created: 1964\nHow she got her Powers: Undergoing experiments at HYDRA\nWeapons: Her powers\nDid You Know? In the comics, Scarlet was introduced as a member of Magneto's Brotherhood of Evil Mutants, born with mutant powers."]
 },
 {"tag": "28",
     "patterns": ["vision"],
-    "responses": ["Name: Vision , Tendency: Good, Eye: Gold, Hair: No, First Appearance: Oct-68, Total: Appearances: 1007"]
+    "responses": ["Name: Vision\nSuperpowers: Superhuman strength & durability; density manipulation, flight, energy blasts, synthetic material generation, mental & computer interaction, genius-level intellect & master combatant.\nAn ideal hybrid of organic and inorganic material, Vision was intended to be a form of the robot villain Ultron, but instead evolved beyond his anatomy, taking on human qualities including the ability to understand emotions. Made of organic tissue and vibranium, Vision's powers are enhanced by the Mind Stone which is embedded in his head. Other than being a genius, Vision has superhuman strength and durability, and is capable of blasting beams of intense cosmic energy from his forehead.\nYear Created: 1968\nHow he got his Powers: From the vibranium & Mind Stone his body comprises.\nWeapons: His powers and the Mind Stone\nDid You Know? Vision has the strength to lift Thor's hammer and even once flew right through the gigantic Ant-Man."]
 },
 {"tag": "29",
     "patterns": ["director", "fury", "nick"],
-    "responses": ["Name: Nicholas J. Fury , Tendency: Neutral, Eye: Brown, Hair: Brown, First Appearance: May-63, Total: Appearances: 1137"]
+    "responses": ["Name: Nicholas J. Fury \n Superpowers: Peak human condition, longevity, skilled martial combatant, heavyweight boxer, Tae Kwon Do & Jiu Jitsu pro.\nWhether he's meeting you with a robotic decoy, taking you to a safehouse that only he knows about or has compartmentalized a mission so not everyone knows what's going on, SHIELD director Nick Fury could be the most secretive man on Earth. No matter how many times he's died, it was probably a decoy and he's waiting for you in Belarus. As a veteran of three wars, it's no surprise Fury has belts in Tae Kwon Do and Jiu Jitsu or that he's an armed combat expert\nYear Created: 1963\nHow he got his Powers: Gained strength in the army\nWeapons: USP pistol, SHIELD weapons\nDid You Know? Fury's injured left eye is a result from a blast during World War II. He now has 95% loss of vision in this eye."]
 },
 {"tag": "30",
     "patterns": ["devil of hells kitchen", "devil", "matt murdock", "dare devil", "daredevil", "matthew murdock"],
-    "responses": ["Name: Matthew Murdock(Daredevil) , Tendency: Good, Eye: Blue, Hair: Red, First Appearance: Apr-64, Total: Appearances: 1338"]
+    "responses": ["Name: Matthew Murdock\n Superpowers: Superhuman, radar senses, skilled martial artist and marksman, stickfighter, detective.\nThe Devil of Hell's Kitchen. He might beat you and break your bones, but this hellish protector of south-side New York firmly believes in the fairness of the law. When he's not harassing New York's underworld, he's protecting the innocent and the abused in the courthouses as attorney, Matt Murdock. He may be blind, but his remaining four senses are more heightened than ever. Daredevil's radar sense helps him know when someone is five feet away thanks to their body-heat and air disturbance. Despite being an exceptional marksman and martial artist, Daredevil also knows when someone's lying by listening to their heartbeat – comes in handy for his duty as an attorney.\nYear Created: 1964\nHow he got his Powers: Radioactive isotope\nWeapons: His manrikigusari\nDid You Know? Stan Lee has admitted that Daredevil's Radar Sense is stronger than Spider-Man's Spider sense"]
 },
 {"tag": "31",
     "patterns": ["punisher", "the punisher", "frank castle", "dare devil", "daredevil", "matthew murdock"],
-    "responses": ["Name: Frank Castle(The Punisher) , Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Feb-74, Total: Appearances: 878"]
+    "responses": ["Name: Frank Castle\nSuperpowers: Peak human condition, special operations master, resistance to telepathic powers, camouflage & stealth skills, pro martial artist, high pain tolerance.\nFrank Castle was an ordinary guy, but everything went wrong after he returned home from doing his duty for the US Marine Corps to find his wife and daughter murdered by criminals. Famous as a superhero who kills people and packing lots of firepower, Frank is on a one-man crusade to kill every criminal in the world. Thanks to his skills in hand-to-hand combat, vast experience in warfare, and ability to camouflage and tolerate extreme levels of pain, of course. Although we didn't see it in the Netflix show, The Punisher is also resistant to psychic and telepathic powers\nYear Created: 1974\nHow he got his Powers: Trained in the military\nWeapons: Rifles, handguns, grenades, knives\nDid you Know? Nick Fury and Tony Stark highly admire The Punisher's extreme pain tolerance. He even avoids taking painkillers to avoid drowsiness and slowed reflexes "]
 },
 {"tag": "32",
     "patterns": ["thanos"],
-    "responses": ["Name: Dione(Thanos)(Mad Titan) , Tendency: Bad, Eye: Purple, Hair: None, First Appearance: Feb-73, Total: Appearances: 1073"]
+    "responses": ["Name: Dione(Thanos)(Mad Titan)\nSuperpowers: Strength, speed, durability, energy manipulation, telepathy, powers based on the Infinity Stones.\nOne of the biggest threats to all reality due to a fixation on claiming and using six stones that can warp reality, Thanos the Mad Titan is a threat that no one sneezes at as he tends to smash everything in his way. Besides this, he is also famous for his relationship with the cosmic aspect of death. This Marvel villain has superpowers that very few can defeat. Thanos can destroy entire planets with a single blow, project psionic energy as a mighty force, emit infrared heat-beams from his eyes, and shut down another being's mind with his talent in telepathy.\nYear Created: 1973\nHow he got Powers: Titan-born and Infinity Stones\nWeapons: Stasis Rifle, Infinity Gauntlet\nDid You Know? The so-called unbeatable Thanos was once defeated by Squirrel Girl in GLX-MAS #1 published in 2005"]
 },
 {"tag": "33",
     "patterns": ["guardians of the galaxy vol 1", "guardians of the galaxy one"],
@@ -140,8 +140,8 @@
     "responses": ["Movie: Guardians of the Galaxy - Vol 2  Plot: Peter Quill and his fellow Guardians are hired by a powerful alien race, the Sovereign, to protect their precious batteries from invaders. When it is discovered that Rocket has stolen the items they were sent to guard, the Sovereign dispatch their armada to search for vengeance. As the Guardians try to escape, the mystery of Peter's parentage is revealed."]
 },
 {"tag": "35",
-    "patterns": ["peter quill", "star lord"],
-    "responses": ["Name: Frank Castle(The Punisher) , Tendency: Neutral, Eye: Blue, Hair: Black, First Appearance: Feb-76, Total: Appearances: 920"]
+    "patterns": ["peter quill", "star lord", "starlord", "star-lord"],
+    "responses": ["Name: Peter Quill\nSuperpowers: Strength, flight via jet boots, master problem-solver, cybernetic enhancements, space travel, Element Gun projects air, earth, fire, water.\nThe captain of the Guardians of the Galaxy, Peter Quill's life has never been uninteresting. Born the son of an alien prince, Quill never knew his father, his mother was killed by alien bounty hunters, he was stranded away from Earth and joined up with the Ravager space pirates. In the end, he becomes ten times the man his father was as a hero of the galaxy. Although he has no superhuman powers, Star-Lord is extremely athletic and a fantastic hand-to-hand combatant and swordsman. His abilities are above that of a normal human being, including great physical strength, resistance to physical injury, and mental performance. Let's not forget his jet boots that enable flight and Element Gun that projects air, earth, fire and water.\nYear Created: 1976\nHow he got his Powers: He's part human and part celestial\nWeapons: Element Gun\nDid You Know? Star-Lord has coordination and flexibility stronger than any of Earth's best athletes."]
 },
 {"tag": "36",
     "patterns": ["gamora"],
@@ -157,7 +157,7 @@
 },
 {"tag": "39",
     "patterns": ["scott", "lang", "Hank Pym"],
-    "responses": ["Name: Henry Pym(Ant-Man)-Scott Lang , Tendency: Good, Eye: Blue, Hair: Blond, First Appearance: Jan-62, Total: Appearances: 1237"]
+    "responses": ["Name: Henry Pym(Ant-Man)-Scott Lang\nSuperpowers: Genius-level intellect, size-changing via Pym Particles, telepathic communication with insects, dimension-hopping.\n One of the first Avengers, Hank Pym is an eccentric genius who created Pym Particles, the exotic matter that can shrink and grow objects while retaining their proportionate strength. Taking on other names like Giant-Man, Goliath, Yellowjacket and even his own wife's alias, The Wasp, he's a bit unstable and prone to nervous breakdowns. That doesn't take away his extraordinary abilities to shrink to the size of an ant, exceed in hand-to-hand combat, and grow to gigantic heights.\n Year Created: 1962\n How he got his Powers: Tested the Pym Particles serum on himself\n Weapons: Stinger firearm\n Did you Know? Like Doctor Strange passes through multiverses, Ant-Man can travel through micro-versus – tiny parallel dimensions."]
 },
 {"tag": "40",
     "patterns": ["wasp"],
@@ -189,22 +189,42 @@
 },
 {"tag": "47",
     "patterns": ["doctor strange", "stephen strange"],
-    "responses": ["Name: Stephen Strange(Doctor Strange) , Tendency: Good, Eye: Grey, Hair: Black, First Appearance: Jul-63, Total: Appearances: 1307"]
+    "responses": ["Name: Stephen Strange\nSuperpowers: A Cloak of Levitation that allows him to fly, skilled athletic and martial artist, conjurer of magical energy shield, wind & flame projection, telekinesis, hypnotism, jumps through dimensions.\nThe Sorcerer Supreme who has been wowing us all with his reality-bending power and psychedelics-inspired dimension-jumping since the 1960's. Dr. Steven Strange started off as an arrogant, know-it-all neurosurgeon at the top of his field who had his hands ruined in a car crash. Stumbling into a world he would have scoffed at before, it's Strange's job to deal with all things magic and mystical. Considered the most powerful being in the Universe, Doctor Strange can manipulate energy and emit energy bolts strong enough to destroy planets. He is able to turn nearly-invisible, pass through solid materials, and teleport through time and dimensions. Strange can also fly using his Cloak of Levitation and has the power to hypnotise his enemies.\n Year Created: 1963\n How he got his Powers: Studied and trained with the Ancient One.\n Weapons: Cloak of Levitation, Eye of Agamotto, Orb of Agamotto & more\n Did You Know? Doctor Strange co-founded The Defenders which also included Silver Surfer, Hulk, and Namor."]
 },
 {"tag": "48",
     "patterns": ["black panther", "tchala", "t'chala"],
-    "responses": ["Name: King T'Chala(Black Panther) , Tendency: Good, Eye: Black, Hair: Black, First Appearance: Jun-66, Total: Appearances: 1120"]
+    "responses": ["Name: King T'Chala\nSuperpowers: Enhanced senses, superhuman condition, speed, martial artist, magical resistance, Vibranium-assisted outfit.\nPouncing from a super-advanced society from deepest Africa, the Black Panther has got to be one of the more distinct of the Avengers roster. As king of his home nation Wakanda, his fights are not in the streets but against threats to his throne, nation, and even the global geopolitical balance. With an extreme ability to hunt and combat, Black Panther sports a costume with features that in some cases, surpass the Iron Man armors and many Batsuits. A skilled acrobat and martial artist, Black Panther is able to run and move at incredible speeds, sense fear and lies, and see in total darkness.\nYear Created: 1966\nHow he got his Powers: Having the juices of the Heart-Shaped Herb applied to his body.\nWeapons: Energy dagger, anti-metal claws\nDid You Know? Black Panther is one of the richest Marvel superheroes!"]
 },
 {"tag": "49",
-    "patterns": ["Carol Denvers", "Captain Marvel"],
+    "patterns": ["carol denvers", "captain marvel"],
     "responses": ["Name: Carol Danvers(Capitain Marvel), Tendency: Good, Eye: Blue, Hair: Blond, First Appearance: Mar-68, Total: Appearances: 881"]
 },
+{"tag": "50",
+    "patterns": ["kilmonger"],
+    "responses": ["Name: Killmonger\nSuperpowers: Strength, expert tactician and manipulator, peak-level hunter, genius-level intellect.\nT'Challa's greatest nemesis and one with a greater chip on his shoulder than Man-Ape. Exiled from Wakanda after his father fell into a failed coup with Ulysses Klaue, N'Jadaka took on the name Erik Killmonger and attended MIT. After graduating, he returned home and set about dethroning the man who exiled him. Killmonger has already been dubbed one of the best villains on-screen, and there's no wonder why. In fact, he's said to be more tougher and enhanced than Black Panther and has enough power to take down an elephant using his hands alone.\nYear Created: 1973\nHow he got his Powers: Having the juices of the Heart-Shaped Herb applied to his body.\nWeapons: Firearms, blades, energy blasting wristband\nDid You Know? Killmonger has a pet leopard called Preyy who was killed during his rise in Wakanda. Preyy was honored as an Easter Egg in Black Panther when Killmonger wore a costume with patchy leopard-skin pattern."]
+},
+{"tag": "51",
+    "patterns": ["groot"],
+    "responses": ["Name: Groot\nSuperpowers: Superhuman strength to lift and break; a durability of dense wood; ability to extend body, generate flowers, twigs and leaves; light generation; regenerative healing factor; talented combatant.\nThis Marvel hero may act like a teen and lack the ability to speak, but that doesn't make his super powers any less extraordinary. Groot, the Flora colossus (a tree-like humanoid being) and one of the Guardians of the Galaxy, has an array of abilities including superhuman strength, durability and a regenerative healing factor that makes him difficult to kill. With a biology made up of plant-like and wood tissues, Groot can regrow body parts and sustain any attack from shots and explosions. Groot also has the strength to break strong metals, extend his body to grow longer, and create a bulletproof shield with twigs.\nYear Created: 1960\nHow he got his Powers: Born as a Flora colossus\nWeapons: His powers\nDid You Know? In the comics, Groot originally appeared as an invader of Earth, capturing humans for experimentation. "]
+},
+{"tag": "52",
+    "patterns": ["danny rand", "iron fist"],
+    "responses": ["Name: Danny Rand\nSuperpowers: Kung fu mastery, hypnosis, chi-empowered punches via concentration and a hand protected from pain and injury.\nThe other half of Heroes for Hire, Danny Rand is the inseparable Kung Fu accomplice of Luke Cage. Raised after being stranded in the mystical hidden city of K'un-Lun and empowered by plunging his fist into the heart of an immortal dragon, Danny is one of Marvel's core street level heroes with an impactful strike that is one of the strongest of all. His chi-empowered punches can blow out brick and steel, while he also has the ability to hypnotise and resist pain by controlling his nervous system.\nYear Created: 1974\nHow he got his Powers: Plunging fist into the heart of an immortal dragon.\nWeapons: Martial arts weapons\nDid You Know? When Matt Murdock was arrested for being Daredevil, Iron Fist dressed up as him to help prove that Murdock wasn't Daredevil."]
+},
+{"tag": "53",
+    "patterns": ["loki"],
+    "responses": ["Name:Loki\nSuperpowers: Strength; stamina, speed, genius, mastery of magic and illusion, energy projection, shapeshifting.\nIt's distressing when your brother is your greatest nemesis. This is the tale of Loki, adopted son of Odin, and raised as a prince who would never be crowned. He never liked that part, or the parts of Asgardian culture that honor strength and bravery. No matter how many times he was banished from Asgard, he always came back with a plan to take the throne using his impressive magical skills. Other than telekinisis and mystical energy blasts, Loki also has immense strength enough to destroy buildings with a single punch and withstand several knocks from the likes of Spider-Man. He can fall from heights without injury and is resistant to bullets and energy blasts.\nYear Created: 1948 (historic) 1962 (modern)\nHow he got his Powers: Learned from mother and studied wizardry.\nWeapons: His magic sword, Laevateinn\nDid You Know? Loki can shapeshift into animals or people like Thor or Captain America but he cannot necessarily gain the abilities of whatever he turns into."]
+},
 {"tag": "greetings",
-    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "what's up", "how is it going?"],
-    "responses": ["Hello!", "Hey!", "what can I do for you?"]
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going?"],
+    "responses": ["Hello!", "Hey", "what can I do for you?"]
+},
+{"tag": "cogitus",
+    "patterns": ["who are you", "what are you", "are you a robot", "are you alive"],
+    "responses": ["I am just a virtual Librarian", "I am just trying to give people what they are searching for"]
 },
 {"tag": "goodbye",
-    "patterns": ["cya", "See you later", "Goddbye", "I am leaving", "Have a Good day", "bye", "see ya"],
+    "patterns": ["cya", "See you later", "goddbye", "i am leaving", "have a good day", "bye", "see ya"],
     "responses": ["Sad to see you go", "talk to you later", "bye bye"]
 }
 ]}

@@ -10,9 +10,8 @@ def home():
 
 @app.route("/get")
 def get_bot_response():
-    userText = request.args.get('msg')
+    userText = request.args.get('msg').lower()
     return str(bot(userText))
-
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -51,9 +51,11 @@ def get_response(intents_list, intents_json):
         if i['tag'] == tag:
             result = random.choice(i['responses'])
             break
+        #result is the string, maybe i can do something with it here like a for loop for every item in the list
     return result
 
 def bot(message):
     ints = predict_class(message)
     res = get_response(ints, intents)
+    #res is the string, maybe i can do something with it here
     return res
