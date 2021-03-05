@@ -5,7 +5,7 @@
 },
 {"tag": "1",
     "patterns": ["friendly neighborhood", "peter", "parker", "spider man", "spider-man"],
-    "responses": ["Name: Peter Parker\nSuperpowers: Strength, jumping, leaping, speed, danger sense precognition, custom web-shooters.\nThe most relatable and popular of Marvels roster by far. Mild-mannered Peter Parker is a tinkerer, a nerd but ultimately an ordinary guy when you take away his spider-based powers. He is the most remarkable, but also the most ordinary. His flexibility and relatability have seen him kick thugs in Queens and join the Avengers to space and beyond in equal measure. With heightened spider powers, this popular Marvel character can web-crawl, leap across buildings, fight like a pro, and sense danger stronger than the little creature itself.\nYear Created: 1963\nHow he got his Powers:  Bitten by a radioactive spider.\nWeapons: Web-shooters\nDid You Know? Peter's parents were S.H.I.E.L.D Agents!"]
+    "responses": ["Name: Peter Parker\nSuperpowers: Strength, jumping, leaping, speed, danger sense precognition, custom web-shooters.\nThe most relatable and popular of Marvel's roster by far. Mild-mannered Peter Parker is a tinkerer, a nerd but ultimately an ordinary guy when you take away his spider-based powers. He's the most remarkable, but also the most ordinary. His flexibility and relatability have seen him kick thugs in Queens and join the Avengers to space and beyond in equal measure. With heightened spider powers, this popular Marvel character can web-crawl, leap across buildings, fight like a pro, and sense danger stronger than the little creature itself.\nYear Created: 1963\nHow he got his Powers:  Bitten by a radioactive spider.\nWeapons: Web-shooters\nDid You Know? Peter's parents were S.H.I.E.L.D Agents!"]
 },
 {"tag": "2",
     "patterns": ["cap", "steve", "rogers"],
@@ -16,8 +16,8 @@
     "responses": ["Name: James Logan\nSuperpowers: Reflexes, agility, senses, retractable adamantium-plated bone claws, regeneration, indestructible skeleton.\nWhat discussion of Marvel's roster would be complete without one of its most iconic of heroes? A hunter by instinct and skilled martial artist and swordsman, he perhaps knows more than any other mutant (thanks to his long life) how distrustful people can be. Wolverine's strength is enough to break steel and lift weights that no normal human could. With animal-senses that can hear and see more than that of an ordinary person, a healing power like no other, and claws for days, Wolverine is one that goes down in history.\nYear Created: 1974\nHow he got his Powers: Mutant-born\nWeapons: Adamantium claws, daggers, katana, guns\nDid You Know? A Batman-Wolverine hybrid exists known as The Dark Claw!"]
 }, 
 {"tag": "4",
-    "patterns": ["anthony", "tony", "stark"],
-    "responses": ["Name: Anthony Stark\nSuperpowers: Genius-level intellect, multiple powered armor suits, ability to fly.\nWhen he is not flying alongside them in his custom power armor, Anthony Edward Tony Stark is the Avengers' billionaire backer and one of America's greatest philanthropists. This came about after he realized just what his weapons company was propagating. His former playboy life left its scars however, most famously his close relationship with alcohol. Nevertheless, when he's wearing his infamous suit, Stark becomes Iron Man, gaining superhuman strength, flying skills and an arsenal of powerful weapons. He can withstand bullet impact and has the ability to biologically heal himself and repair the armor.\nYear Created: 1963\nHow he got his Powers: From his suit\nWeapons: Repulsor rays, uni-beam projector, lasers\nDid You Know? Tony Stark created and built one of Spider-Man's upgraded suits known as the Iron Spider Suit. We got a small glimpse of it in Spider-Man: Homecoming!"]
+    "patterns": ["anthony", "tony", "stark", "iron man"],
+    "responses": ["Name: Anthony Stark\nSuperpowers: Genius-level intellect, multiple powered armor suits, ability to fly.\nWhen he's not flying alongside them in his custom power armor, Anthony Edward Tony Stark is the Avengers' billionaire backer and one of America's greatest philanthropists. This came about after he realized just what his weapons company was propagating. His former playboy life left its scars however, most famously his close relationship with alcohol. Nevertheless, when he's wearing his infamous suit, Stark becomes Iron Man, gaining superhuman strength, flying skills and an arsenal of powerful weapons. He can withstand bullet impact and has the ability to biologically heal himself and repair the armor.\nYear Created: 1963\nHow he got his Powers: From his suit\nWeapons: Repulsor rays, uni-beam projector, lasers\nDid You Know? Tony Stark created and built one of Spider-Man's upgraded suits known as the Iron Spider Suit. We got a small glimpse of it in Spider-Man: Homecoming!"]
 },
 {"tag": "5",
     "patterns": ["wanda vision", "wanda tv show", "wanda disney"],
@@ -25,7 +25,7 @@
 },
 {"tag": "6",
     "patterns": ["dare devil tv show", "hells kitchen", "hellskitchen", "daredevil tv show" ],
-    "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 39, Plot: The first season sees lawyer-by-day Matt Murdock use his heightened senses from being blinded as a young boy to fight crime at night on the streets of New York Citys Hell's Kitchen neighborhood as Daredevil, while uncovering a conspiracy of the criminal underworld being led by Wilson Fisk."]
+    "responses": ["Streaming on: Netflix , Ratings: 9.8, Episodes: 39, Plot: The first season sees lawyer-by-day Matt Murdock use his heightened senses from being blinded as a young boy to fight crime at night on the streets of New York City's Hell's Kitchen neighborhood as Daredevil, while uncovering a conspiracy of the criminal underworld being led by Wilson Fisk."]
 },
 {"tag": "7",
     "patterns": ["punisher tv show"],
@@ -156,7 +156,7 @@
     "responses": ["Name: Drax(The Destroyer) , Tendency: Neutral, Eye: Black, Hair: None, First Appearance: Feb-76, Total: Appearances: 900"]
 },
 {"tag": "39",
-    "patterns": ["scott", "lang", "Hank Pym"],
+    "patterns": ["scott lang", "Hank Pym"],
     "responses": ["Name: Henry Pym(Ant-Man)-Scott Lang\nSuperpowers: Genius-level intellect, size-changing via Pym Particles, telepathic communication with insects, dimension-hopping.\n One of the first Avengers, Hank Pym is an eccentric genius who created Pym Particles, the exotic matter that can shrink and grow objects while retaining their proportionate strength. Taking on other names like Giant-Man, Goliath, Yellowjacket and even his own wife's alias, The Wasp, he's a bit unstable and prone to nervous breakdowns. That doesn't take away his extraordinary abilities to shrink to the size of an ant, exceed in hand-to-hand combat, and grow to gigantic heights.\n Year Created: 1962\n How he got his Powers: Tested the Pym Particles serum on himself\n Weapons: Stinger firearm\n Did you Know? Like Doctor Strange passes through multiverses, Ant-Man can travel through micro-versus – tiny parallel dimensions."]
 },
 {"tag": "40",
